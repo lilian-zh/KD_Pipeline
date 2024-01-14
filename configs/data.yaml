@@ -1,0 +1,46 @@
+# data_loaders: 
+num_workers: 0
+batch_size: 16
+dataset: Internal_BM #LMU
+num_classes: 13 #15
+train_path: ./data/02_intermediate/internal_data/fold_5/train_set.pkl
+val_path: ./data/02_intermediate/internal_data/fold_5/val_set.pkl
+test_path: ./data/02_intermediate/internal_data/test_set.pkl
+
+
+is_class_weights: False
+class_counts: # config when the is_class_weights is True
+# Internal_BM
+ - 11
+ - 40
+ - 535
+ - 409
+ - 166
+ - 511
+ - 128
+ - 450
+ - 3242
+ - 3021
+ - 1658
+ - 865
+ - 475
+# #lmu
+#  - 1769
+#  - 15
+#  - 11
+#  - 3889
+#  - 415
+#  - 79
+#  - 15
+#  - 26
+#  - 77
+#  - 42
+#  - 107
+#  - 8386
+#  - 3233
+#  - 18
+#  - 69
+
+
+
+

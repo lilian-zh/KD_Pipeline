@@ -1,0 +1,7 @@
+model_path: ./data/06_models/model/best_loss.pth
+num_models: 1
+model_name: resnet18
+model_attributes: 
+  avg_pool: True
+
+output_dir: ./data/07_model_output

@@ -1,0 +1,11 @@
+teacher_config: 
+  teacher_dir: ./data/06_models
+  num_models: 1
+  model_name: resnet18 #convnet4 #MobileNetV2 #resnext50
+  model_attributes: {}
+
+
+student_config: 
+  model_name: resnet18 #convnet4 #MobileNetV2 #resnet50
+  num_models: 1
+  model_attributes: {}
